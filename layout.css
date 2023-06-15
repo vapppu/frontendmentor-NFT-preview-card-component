@@ -1,0 +1,81 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.8rem;
+  font-family: "Outfit";
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+  background-color: hsl(217, 54%, 11%);
+  line-height: normal;
+}
+.centered {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: min-content;
+  padding: 2.5rem;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 2rem;
+  box-shadow: black 0 0 10rem -5rem;
+}
+img {
+  display: block;
+  border-radius: 1rem;
+  width: 310px;
+}
+h1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.values {
+  display: flex;
+  padding-block-end: 2rem;
+  border-block-end: 1px solid hsl(215, 32%, 27%);
+}
+.values > * {
+  flex-grow: 1;
+  flex-basis: auto;
+}
+.value {
+  text-align: left;
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+.day-counter {
+  text-align: right;
+}
+figure,
+h1,
+p,
+.values {
+  margin-block-end: 2rem;
+}
+svg {
+  margin-inline-end: 0.5rem;
+}
+figure#avatar img {
+  display: inline;
+  width: 4rem;
+  border: 1.3px solid white;
+  border-radius: 50%;
+  margin-inline-end: 2rem;
+}
+em {
+  color: white;
+}
+figure#avatar {
+  display: inline;
+  vertical-align: middle;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
